@@ -1,0 +1,29 @@
+.faq {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.faq__item {
+  border-bottom: 1px solid #ddd;
+  padding: 16px;
+}
+
+.faq__question {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.faq__arrow {
+  font-size: 24px;
+  margin-left: 8px;
+}
+
+.faq__answer {
+  margin-top: 16px;
+}

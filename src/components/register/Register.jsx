@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
+// import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
-export default class SignUp extends Component {
+export default class Register extends Component {
   render() {
     return (
       <form>

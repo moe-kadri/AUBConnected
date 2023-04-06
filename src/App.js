@@ -1,48 +1,36 @@
-import React from 'react'
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import './App.css'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-
-import Login from './components/login.component'
-import SignUp from './components/signup.component'
-
+import "./App.css"
+import Header from "./components/header/Header"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Home from "./components/home/Home"
+import Trading from "./components/trading/Trading"
+import Feedback from "./components/feedback/Feedback"
+import CareerGuidance from "./components/careerguidance/CareerGuidance"
+import Schedue from "./components/schedule/Schedule"
+import About from "./components/about/About"
+import Events from "./components/events/Events"
+import Login from "./components/login/Login"
+import Register from "./components/register/Register"
+import Footer from "./components/footer/Footer"
+import React, { Component }  from 'react';
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <nav className="navbar navbar-expand-lg navbar-light fixed-top">
-          <div className="container">
-            <Link className="navbar-brand" to={'/sign-in'}>
-              <b>AUBConnected</b>
-            </Link>
-            <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul className="navbar-nav ml-auto">
-                <li className="nav-item">
-                  <Link className="nav-link" to={'/sign-in'}>
-                    Login
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to={'/sign-up'}>
-                    Sign up
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-        <div className="auth-wrapper">
-          <div className="auth-inner">
-            <Routes>
-              <Route exact path="/" element={<Login />} />
-              <Route path="/sign-in" element={<Login />} />
-              <Route path="/sign-up" element={<SignUp />} />
-            </Routes>
-          </div>
-        </div>
-      </div>
-    </Router>
+    <>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" exact element={<Home/>} />
+          <Route path="/trading" exact element={<Trading />} />
+          <Route path="/feedback" exact element={<Feedback />} />
+          <Route path="/careerguidance" exact element={<CareerGuidance />} />
+          <Route path="/schedule" exact element={<Schedue />} />
+          <Route path="/events" exact element={<Events />} />
+          <Route path="/about" exact element={<About />} />
+          <Route path="/login" exact element={<Login />} />
+          <Route path="/register" exact element={<Register />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </>
   )
 }
 
