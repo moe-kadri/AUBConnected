@@ -34,9 +34,10 @@
     background-color: #eeeeee;
   }
   footer .container {
-    display: grid;
+    display: flex;
     grid-template-columns: 3fr 2fr 2fr 4fr 3fr;
     grid-gap: 30px;
+    justify-content: space-between;
   }
   @media screen and (max-width: 768px) {
     footer .container {
@@ -110,4 +111,9 @@
   .legal i {
     color: #1eb2a6;
   }
-  
+
+.social .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

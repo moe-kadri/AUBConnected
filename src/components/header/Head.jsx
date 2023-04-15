@@ -1,4 +1,5 @@
 import React from "react"
+import "./header.css"
 
 const Head = () => {
   return (
@@ -9,7 +10,7 @@ const Head = () => {
             <h1>UniFlow</h1>
           </div>
 
-          <div className='social'>
+          <div className='social flexSB'>
             <i className='fab fa-facebook-f icon'></i>
             <i className='fab fa-instagram icon'></i>
             <i className='fab fa-twitter icon'></i>

@@ -7,14 +7,17 @@ const Footer = () => {
     <>
       <footer>
         <div className='container padding'>
+          <div>
           <div className='box logo'>
             <h1>UNIFLOW</h1>
             <span>ONLINE UNIVERSITY SERVICES</span>
             <p>All your AUB matters in one place, faster and easier!</p>
-
+          </div>
+          <div className='social flexSB'>
             <i className='fab fa-facebook-f icon'></i>
             <i className='fab fa-instagram icon'></i>
             <i className='fab fa-twitter icon'></i>
+          </div>
           </div>
           <div className='box link'>
             <h3>Explore</h3>

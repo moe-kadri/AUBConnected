@@ -11,6 +11,7 @@ import Events from "./components/events/Events"
 import Login from "./components/login/Login"
 import Register from "./components/register/Register"
 import Footer from "./components/footer/Footer"
+import Previouses from "./components/previouses/Previouses"
 import React, { Component }  from 'react';
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" exact element={<Home/>} />
+          <Route path="/previouses" exact element={<Previouses />} />
           <Route path="/trading" exact element={<Trading />} />
           <Route path="/feedback" exact element={<Feedback />} />
           <Route path="/careerguidance" exact element={<CareerGuidance />} />

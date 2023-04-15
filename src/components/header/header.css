@@ -73,3 +73,10 @@ header ul li a:hover {
     background-color: #1eb2a6;
   }
 }
+
+.social .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

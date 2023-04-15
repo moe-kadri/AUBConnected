@@ -16,6 +16,9 @@ const Header = () => {
               <Link to='/'>Home</Link>
             </li>
             <li>
+              <Link to='/previouses'>Previouses</Link>
+            </li>
+            <li>
               <Link to='/trading'>Trade Courses</Link>
             </li>
             <li>
@@ -39,7 +42,7 @@ const Header = () => {
             <div className='button'>Sign In</div>
             <div className='button'>Sign Up</div>
           </div> */}
-          <ul className="start">
+          <ul className="start flexSB">
             <li>
               <Link to='/login'>Login</Link>
             </li>
