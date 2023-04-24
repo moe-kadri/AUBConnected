@@ -25,15 +25,23 @@
   }
   
   .previouses-section button {
-    padding: 5px 10px;
-    background-color: #007bff;
+    padding: 10px;
+    background-color: #1eb2a6;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .previouses-section button:hover {
-    background-color: #0069d9;
+    background-color: #1eaaa6;
   }
   
+  .flex-container {
+    display: flex;
+    gap: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }

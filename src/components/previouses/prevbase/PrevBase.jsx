@@ -35,42 +35,57 @@ function PrevBase() {
             <Heading title="Apply the filters below and search for your previous!" />
         </div>
       <form>
-        <label>
-          Course:
-          <input
-            type="text"
-            name="course"
-            value={filters.course}
-            onChange={handleFilterChange}
-          />
-        </label>
-        <label>
-          Semester:
-          <input
-            type="text"
-            name="semester"
-            value={filters.semester}
-            onChange={handleFilterChange}
-          />
-        </label>
-        <label>
-          Year:
-          <input
-            type="text"
-            name="year"
-            value={filters.year}
-            onChange={handleFilterChange}
-          />
-        </label>
-        <label>
-          Professor:
-          <input
-            type="text"
-            name="professor"
-            value={filters.professor}
-            onChange={handleFilterChange}
-          />
-        </label>
+
+        <div className="flex-container">
+          <div>
+            <label>
+            Course:
+            <input
+              type="text"
+              name="course"
+              value={filters.course}
+              onChange={handleFilterChange}
+            />
+            </label>
+          </div>
+          <div>
+            <label>
+            Semester:
+            <input
+              type="text"
+              name="semester"
+              value={filters.semester}
+              onChange={handleFilterChange}
+            />
+            </label>
+          </div>
+        </div>
+
+        <div className="flex-container">
+          <div>
+            <label>
+            Year:
+            <input
+              type="text"
+              name="year"
+              value={filters.year}
+              onChange={handleFilterChange}
+            />
+            </label>
+          </div>
+          <div>
+            <label>
+            Professor:
+            <input
+              type="text"
+              name="professor"
+              value={filters.professor}
+              onChange={handleFilterChange}
+            />
+            </label>
+          </div>
+        </div>
+       
         <button type="button" onClick={handleSearch}>
           Search
         </button>
