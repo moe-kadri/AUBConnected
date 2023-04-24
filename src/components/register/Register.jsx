@@ -1,10 +1,19 @@
 import React, { Component } from 'react'
-// import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import Heading from "../heading/Heading"
 
 export default class Register extends Component {
   render() {
     return (
       <form>
+
+      <section className='loginhead'>
+        <div className='container'>
+          <div className='row'>
+            <Heading />
+          </div>
+        </div>
+      </section>
+
         <h3>Sign Up</h3>
 
         <div className="mb-3">

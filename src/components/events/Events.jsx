@@ -1,12 +1,14 @@
 import React from 'react';
+import EventHead from './eventhead/EventHead';
+import Event from './event/Event';
 
 function Events() {
     return (
-      <div>
-        <h1>Events</h1>
-        <p>This is the events page.</p>
-      </div>
+      <>
+        <EventHead />
+        <Event />
+      </>
     );
-  }
+}
 
 export default Events;

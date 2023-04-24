@@ -1,12 +1,14 @@
 import React from 'react';
+import AcademicHead from './academichead/AcademicHead';
+import Academic from './academic/Academic';
 
 function Schedule() {
     return (
-      <div>
-        <h1>Schedule</h1>
-        <p>This is the schedule page.</p>
-      </div>
+      <>
+        <AcademicHead />
+        <Academic />
+      </>
     );
-  }
+}
 
 export default Schedule;

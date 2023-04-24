@@ -1,12 +1,14 @@
 import React from 'react';
+import FeedHead from './feedhead/FeedHead';
+import Feed from './feed/Feed';
 
 function Feedback() {
     return (
-      <div>
-        <h1>Feedback</h1>
-        <p>This is the feedback page.</p>
-      </div>
+      <>
+        <FeedHead />
+        <Feed />
+      </>
     );
-  }
+}
 
 export default Feedback;

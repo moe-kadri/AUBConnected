@@ -1,10 +1,21 @@
 import React, { Component } from 'react'
-// import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import Heading from "../heading/Heading"
+import './login.css'
 
 export default class Login extends Component {
   render() {
     return (
       <form>
+
+      <section className='loginhead'>
+        <div className='container'>
+          <div className='row'>
+            <Heading />
+          </div>
+        </div>
+      </section>
+
+      <div className='margin'></div>
         <h3>Sign In</h3>
 
         <div className="mb-3">

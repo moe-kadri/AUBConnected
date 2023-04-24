@@ -1,12 +1,14 @@
 import React from 'react';
+import CareerHead from './careerhead/CareerHead';
+import Career from './career/Career';
 
 function CareerGuidance() {
     return (
-      <div>
-        <h1>Career Guidance</h1>
-        <p>This is the career guidance page.</p>
-      </div>
+      <>
+        <CareerHead />
+        <Career />
+      </>
     );
-  }
+}
 
 export default CareerGuidance;

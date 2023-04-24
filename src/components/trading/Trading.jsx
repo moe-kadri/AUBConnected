@@ -1,12 +1,14 @@
 import React from 'react';
+import TradeHead from './tradehead/TradeHead';
+import Trade from './trade/Trade';
 
 function Trading() {
     return (
-      <div>
-        <h1>Trading Courses</h1>
-        <p>This is the trading courses page.</p>
-      </div>
+      <>
+        <TradeHead />
+        <Trade />
+      </>
     );
-  }
+}
 
 export default Trading;

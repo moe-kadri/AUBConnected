@@ -1,5 +1,5 @@
-.hero {
-    background-image: url("../../../images/bliss.webp");
+.tradehead {
+    background-image: url("../../../images/trade7.webp");
     background-size: cover;
     background-attachment: fixed;
     position: absolute;
@@ -12,10 +12,10 @@
     padding-right: 50px;
     color: #fff;
   }
-  .hero #heading h3 {
+  .tradehead #heading h3 {
     color: #fff;
   }
-  .hero #heading {
+  .tradehead #heading {
     text-align: left;
     margin: 0;
     padding: 0;
@@ -24,12 +24,12 @@
     .margin {
       height: 40vh;
     }
-    .hero {
+    .tradehead {
       background-position: right;
       padding-top: 50%;
       height: 80vh;
     }
-    .hero .row {
+    .tradehead .row {
       width: 100%;
     }
   }
