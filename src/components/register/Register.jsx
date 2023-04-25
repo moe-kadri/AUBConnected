@@ -16,18 +16,20 @@ export default class Register extends Component {
 
         <h3>Sign Up</h3>
 
-        <div className="mb-3">
-          <label>First name</label>
-          <input
-            type="text"
-            className="form-control"
-            placeholder="First name"
-          />
-        </div>
+        <div className='flex-container'>
+          <div className="mb-3">
+            <label>First name</label>
+            <input
+              type="text"
+              className="form-control"
+              placeholder="First name"
+            />
+          </div>
 
-        <div className="mb-3">
-          <label>Last name</label>
-          <input type="text" className="form-control" placeholder="Last name" />
+          <div className="mb-3">
+            <label>Last name</label>
+            <input type="text" className="form-control" placeholder="Last name" />
+          </div>
         </div>
 
         <div className="mb-3">

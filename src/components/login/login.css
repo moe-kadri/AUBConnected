@@ -21,9 +21,12 @@
   
   h3 {
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     font-weight: 500;
     line-height: 1.2;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
   }
   
   .btn {
@@ -40,6 +43,7 @@
     border-radius: 0.25rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
       border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    width: 100%;
   }
   
     .btn-primary {
@@ -78,8 +82,6 @@
     margin-bottom: 0.3rem;
     vertical-align: middle;
   }
-  
-
 
   .loginhead {
     background-image: url("../../images/back1.webp");
@@ -116,4 +118,9 @@
       width: 100%;
     }
   }
-  
+
+.rMe {
+  font-size: 0.875rem;
+  font-weight: normal;
+  margin-top: 0.1rem;
+}
