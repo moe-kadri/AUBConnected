@@ -14,7 +14,7 @@ export default class Register extends Component {
         </div>
       </section>
 
-        <h3>Sign Up</h3>
+        <h4>Sign Up</h4>
 
         <div className='flex-container'>
           <div className="mb-3">

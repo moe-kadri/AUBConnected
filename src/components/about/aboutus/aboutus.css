@@ -1,0 +1,65 @@
+.developer-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .developer-image1 {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    background-image: url('../../../images/member1.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-left: 50px;
+  }
+
+  .developer-image2 {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    background-image: url('../../../images/member2.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-left: 50px;
+  }
+
+  .developer-image3 {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    background-image: url('../../../images/member3.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-left: 50px;
+  }
+
+  .developer-image4 {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    background-image: url('../../../images/member4.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-left: 50px;
+  }
+  
+  .developer-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .developer-info h3 {
+    margin: 0;
+  }
+  
+  .developer-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #888;
+  }
+  

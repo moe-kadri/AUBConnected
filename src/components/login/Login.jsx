@@ -16,7 +16,7 @@ export default class Login extends Component {
       </section>
 
       <div className='margin'></div>
-        <h3>Sign In</h3>
+        <h4>Sign In</h4>
 
         <div className="mb-3">
           <label>Email address</label>
